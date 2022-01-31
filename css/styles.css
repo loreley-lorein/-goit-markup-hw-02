@@ -1,0 +1,88 @@
+/* цвет основного текста #757575 */
+
+/* вторичный цвет - цвет заголовков #212121 */
+
+/* акцент #2196F3 */
+
+/* белый #FFFFFF */
+
+/* цвет героя и подвала #2F303A */
+
+/* вторичный цвет фона #F5F4FA */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-text: #ffffff;
+  --second-logo-color: #000000;
+  --primary-bcg-color: #2f303a;
+  --secondary-bcg-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--hero-text);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  color: var(--second-logo-color);
+}
+
+.logo-first {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link,
+.auth-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--hero-text);
+  background-color: var(--primary-bcg-color);
+}
+
+/* Main */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Our works */
+
+/* Our teammates */
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--hero-text);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
