@@ -4,8 +4,7 @@
   background-color: var(--secondary-bcg-color);
 }
 
-.filter .button:hover,
-.filter .button:focus {
+.filter .button:hover {
   color: var(--hero-text);
   background-color: var(--accent-color);
 }
