@@ -52,37 +52,6 @@ ul {
   color: var(--accent-color);
 }
 
-/* Hero */
-
-.hero-title {
-  color: var(--hero-text);
-  background-color: var(--primary-bcg-color);
-}
-
-/* Main */
-
-.section-title {
-  color: var(--title-text-color);
-}
-
-/* Features */
-
-.feature-list .title {
-  color: var(--title-text-color);
-}
-
-/* Our works */
-
-/* Our teammates */
-
-.team-list .title {
-  color: var(--title-text-color);
-}
-
-/* Button */
-
-.button {
-  color: var(--hero-text);
-  background-color: var(--accent-color);
-  border-color: transparent;
+.site-nav .link.current {
+  color: var(--accent-color);
 }
