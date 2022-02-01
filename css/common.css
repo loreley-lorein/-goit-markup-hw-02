@@ -17,25 +17,29 @@
   --second-logo-color: #000000;
   --primary-bcg-color: #2f303a;
   --secondary-bcg-color: #f5f4fa;
+  --contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: var(--hero-text);
   color: var(--primary-text-color);
+  background-color: var(--hero-text);
 }
 
 ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
 /* Header */
 
 .logo {
-  color: var(--second-logo-color);
+  color: var(--accent-color);
 }
 
-.logo-first {
-  color: var(--accent-color);
+.logo-header {
+  color: var(--second-logo-color);
 }
 
 /* Site nav */
@@ -53,5 +57,34 @@ ul {
 }
 
 .site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Button */
+
+.button {
+  border-color: transparent;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--primary-bcg-color);
+}
+
+.logo-footer {
+  color: var(--hero-text);
+}
+
+.address {
+  color: var(--hero-text);
+}
+
+.footer .link {
+  color: var(--contacts-color);
+}
+
+.footer .link:hover,
+.footer .link:focus {
   color: var(--accent-color);
 }

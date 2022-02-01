@@ -27,8 +27,7 @@
 
 /* Button */
 
-.button {
+.hero .button {
   color: var(--hero-text);
   background-color: var(--accent-color);
-  border-color: transparent;
 }
