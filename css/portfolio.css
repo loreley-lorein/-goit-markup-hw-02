@@ -1,4 +1,4 @@
-/* Filter */
+/* Our projects */
 .filter .button {
   color: var(--title-text-color);
   background-color: var(--secondary-bcg-color);
@@ -9,6 +9,9 @@
   background-color: var(--accent-color);
 }
 
+.projects .link {
+  color: var(--primary-text-color);
+}
 .projects .title {
   color: var(--title-text-color);
 }
