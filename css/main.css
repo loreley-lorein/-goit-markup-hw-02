@@ -1,33 +1,68 @@
 /* Hero */
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--hero-text);
+
   background-color: var(--primary-bcg-color);
+}
+
+.hero .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-text);
+
+  background-color: var(--accent-color);
 }
 
 /* Main */
 
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1/17;
+  text-align: center;
   color: var(--title-text-color);
 }
 
 /* Features */
 
 .feature-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 
+.feature-list .description {
+  font-size: 14px;
+  line-height: 1.71;
+}
 /* Our works */
 
 /* Our teammates */
 
 .team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
   color: var(--title-text-color);
 }
 
-/* Button */
-
-.hero .button {
-  color: var(--hero-text);
-  background-color: var(--accent-color);
+.team-list .description {
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
 }
+/* Button */
