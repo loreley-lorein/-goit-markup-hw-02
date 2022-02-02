@@ -22,6 +22,8 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--hero-text);
@@ -90,14 +92,12 @@ a {
 .address {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
   color: var(--hero-text);
 }
 
 .footer .link {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
   color: var(--contacts-color);
 }
 

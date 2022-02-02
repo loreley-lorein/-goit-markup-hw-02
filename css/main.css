@@ -14,7 +14,6 @@
 
 .hero .button {
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.88;
   align-items: center;
   text-align: center;
@@ -29,7 +28,7 @@
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1/17;
+  line-height: 1.17;
   text-align: center;
   color: var(--title-text-color);
 }
@@ -44,25 +43,26 @@
   color: var(--title-text-color);
 }
 
-.feature-list .description {
+.feature-list .text {
   font-size: 14px;
-  line-height: 1.71;
 }
 /* Our works */
 
 /* Our teammates */
 
+.team {
+  background-color: var(--secondary-bcg-color);
+}
+
 .team-list .title {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.19;
   text-align: center;
   color: var(--title-text-color);
 }
 
-.team-list .description {
-  font-size: 16px;
-  line-height: 1.88;
+.team-list .text {
+  line-height: 1.19;
   text-align: center;
 }
 /* Button */
